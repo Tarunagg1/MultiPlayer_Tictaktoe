@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: radial-gradient(#fc4a1a,#f7b733);
+    padding: 10px;
+    width: 65vw;
+    height: 65vh;
+    /* margin: 10px; */
+    margin: auto;
+  }
+  .grid-item {
+    /* background-image: radial-gradient(rgba(9, 97, 24, 0.8),rgb(233, 233, 230)); */
+    background-color: #215f00;
+    border: 3px solid #f7b733;
+    /* padding: 20px; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .iconclass{
+    font-size: 65px;
+    font-weight: bold;
+    color: #f17a0b;
+  }
+  .Ticlogos{
+    height: 20px;
+    padding: 0 5px;
+  }
+  .mO, .mX{
+    cursor: not-allowed;
+  }
+
+.statgrid{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4px;
+  text-transform: capitalize;
+}
